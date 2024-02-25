@@ -1,5 +1,7 @@
 # E2E-SPTTN
 This is repository for E2E-SPTTN: Spatial–temporal transformer for end-to-end sign language recognition.
+![image](https://github.com/Nice-Zhang66/E2E-SPTTN/assets/72641963/3e345af5-d8db-4040-9202-e0ecebd07e9c)
+
 # Installation
 1. Create a virtual environment conda create -n spttn python=3.10 -y and activate it conda activate spttn
 2. Install Pytorch 2.0
@@ -20,7 +22,7 @@ python data_preprocess.py --process-image --multiprocessing
 ## CSL dataset
 The results of TLP on CSL dataset is placed in the supplementary material.
 
-Request the CSL Dataset from this website [download link]
+Request the CSL Dataset from this website [https://ustc-slr.github.io/openresources/cslr-dataset-2015/index.html]
 
 After finishing dataset download, extract it. It is suggested to make a soft link toward downloaded dataset.
 ln -s PATH_TO_DATASET ./dataset/CSL
